@@ -139,3 +139,10 @@ body{
     width: 180px;
     flex-direction: column;
 }
+.year-service{
+    background-color: #CB2D6F;
+    color:#cccccc;
+    width: 120px;
+    border-radius: 20px;
+    text-align: center;
+}
