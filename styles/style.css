@@ -5,7 +5,6 @@
 #about-icon{
     border-radius: 50%;
     width: 50px;
-    background-color: #CB2D6F;
 }
 #work-icon{
     width: 50px;
@@ -24,7 +23,6 @@
 }
 #skills-icon{
     width: 50px;
-    height: 50px;
     border-radius: 50%;
     background-color: #CB2D6F;
 }
@@ -32,4 +30,112 @@
     width: 50px;
     border-radius: 50%;
     background-color: #CB2D6F;
+    
+}
+.about-icon-description{
+    display: flex;
+    justify-content: space-between;
+}
+.work-experience-icon-description{
+    display: flex;
+}
+.about-icon-description{
+    display: flex;
+}
+.education-icon-description{
+    display: flex;
+}
+.skills-icon-description{
+    display: flex;
+    display: space-between;
+}
+.contact-icon-description{
+    display: flex;
+}
+.projects-icon-description{
+    display: flex;
+}
+.about-icon-description{
+    display: flex;   
+}
+.description{
+    border-radius: 15px;
+    background-color: #CB2D6F;
+    width: 70px;
+    padding: 10px;
+    height: 10px;
+    text-align: center;
+}
+#img-icons{
+    width: 30px;
+    border-radius: 50%;
+}
+.float-left{
+    float: left;
+}
+#img-project{
+    width:100px;
+}
+#img-contact{
+    width: 30px;
+    border-radius: 50%;
+    height: 30px;
+}
+.more{
+    background-color: #CB2D6F;
+    border-radius: 15px;
+    text-align: center;
+    width: 60px;
+}
+.view-online{
+    background-color: #CB2D6F;
+    border-radius: 15px;
+    text-align: center;
+    width: 120px;
+}
+.links{
+    margin: 30px;
+    justify-content: space-around;
+}
+.header{
+    color: #CB2D6F;
+}
+.sub-header{
+    color: #CB2D6F
+}
+.button-send-message{
+    background-color: ;
+}
+.landing-page{
+    background-color: #CB2D6F;
+    color: white;
+}
+.bg-color-black{
+    background-color: rgb(70, 66, 66);
+}
+body{
+    background-color: white;
+}
+.landing-page-header{
+    color: black;
+}
+.landing-page{
+    padding: 20px;
+}
+.container{
+    background-color: #cccccc;
+}
+.button-send-message{
+    background-color: #cccccc;
+    color: black;
+    width: 125px;border-radius: 45px;
+    text-align: center;
+    height: 25px;
+}
+.project{
+    background-color: #FBEFEF;
+    padding: 20px;
+    margin: 20px;
+    width: 180px;
+    flex-direction: column;
 }
