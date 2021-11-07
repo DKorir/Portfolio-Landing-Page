@@ -19,27 +19,27 @@
                             <ul>
                             <div class="about-icon-description">
                                 <img id="about-icon" src="./pictures/domie.png" height="50px" alt="">
-                                <a href=""> <li>About</li> </a>
+                                <a class="description" href="http://127.0.0.1:5503/.vscode/about.html"> <li>About</li> </a>
                             </div>
                             <div class="work-experience-icon-description">
                                 <img id="work-icon" src="./pictures/experienceicon-removebg-preview.png" height="50px" alt="">
-                                <a href=""> <li>Work Experience</li> </a>
+                                <a class="description" href=""> <li>Work Experience</li> </a>
                             </div>
                             <div class="skills-icon-description">
                                 <img id="skills-icon" src="./pictures/skillsicon-removebg-preview.png" height="50px" alt="">
-                                <a href=""> <li>Skills</li> </a>
+                                <a class="description" href=""> <li>Skills</li> </a>
                             </div>
                             <div id="projects-icon" class="projects-icon-description">
                                 <img src="./pictures/projectsicon.png" height="50px" alt="">
-                                <a href=""> <li>Projects</li> </a>
+                                <a class="description" href=""> <li>Projects</li> </a>
                             </div>
                             <div id="education-icon" class="education-icon-description">
                                 <img src="./pictures/eduicon-removebg-preview.png" height="50px" alt="">
-                                <a href=""> <li>Education</li> </a>
+                                <a class="description" href=""> <li>Education</li> </a>
                             </div>
                             <div id="contact-icon" class="contact-icon-description">
                                 <img src="./pictures/contacticon.png" height="50px" alt="">
-                                <a href=""> <li>Contact</li> </a>
+                                <a class="description" href=""> <li>Contact</li> </a>
                             </div>
                             </ul>
                         </div>
@@ -58,7 +58,7 @@
                                 <p>Hi<br>I’m Dominic. Currently, I am based in<br> Nairobi-Kenya working as a freelance web <br>Developer.I am a front-end, full-stack and <br>creator of web and mobile solutions with<br> focus on motion and user experience. <br>
                                 I have worked with companies of all sizes<br> and shapes so contact me if you want to <br>work with me in your next project.</p>
                                 <div class="button-send-message">
-                                    <p>send me message</p>
+                                    <p> <strong>send me message</strong> </p>
                                 </div>
                             </div>
                         </div>
@@ -67,28 +67,31 @@
                                 <h1>About me</h1>
                             </div>
                             <div class="landing-page-image">
-                                <img src="./pictures/man-working-at-laptop-vector-8619962-removebg-preview.png" alt="">
+                                <img src="./pictures/man-working-at-laptop-vector-8619962-removebg-preview.png" height="300px" alt="">
                             </div>
             
                             
                         </div>
                     </div>
                     <div class="about-page">
-                        <div class="bg-color-black">
-                            <div class="header">
-                                <h1>ABOUT</h1>
+                        <div class="float-left">
+                            <div class="bg-color-black">
+                                <div class="header">
+                                    <h1>ABOUT</h1>
+                                </div>
+                            </div>
+                            <div class="about-description">
+                                <p>Hi<br>I’m Dominic. Currently, I am based in<br> Nairobi-Kenya working as a freelance web <br>Developer.I am a front-end, full-stack and <br>creator of web and mobile solutions with<br> focus on motion and user experience. <br>
+                                I have worked with companies of all sizes<br> and shapes so contact me if you want to <br>work with me in your next project.</p>
                             </div>
                         </div>
-                        <div class="about-description">
-                            <p>Hi<br>I’m Dominic. Currently, I am based in<br> Nairobi-Kenya working as a freelance web <br>Developer.I am a front-end, full-stack and <br>creator of web and mobile solutions with<br> focus on motion and user experience. <br>
-                            I have worked with companies of all sizes<br> and shapes so contact me if you want to <br>work with me in your next project.</p>
-                        </div>
+                        
                         <div class="about-icons">
                             <ul>
-                                <a href=""><img src="./pictures/domie.png" height="50px" alt=""><li></li></a>
-                                <a href=""><img src="./pictures/githubicon.png" height="50px" alt=""><li></li></a>
-                                <a href=""><img src="./pictures/twittericon.png" height="50px" alt=""><li></li></a>
-                                <a href=""><img src="./pictures/linkedinicon.png" height="50px" alt=""><li></li></a>
+                                <a href=""><img id="img-icons" src="./pictures/domie.png" height="30px" alt=""><li></li></a>
+                                <a href=""><img id="img-icons" src="./pictures/githubicon.png" height="30px" alt=""><li></li></a>
+                                <a href=""><img id="img-icons" src="./pictures/twittericon.png" height="30px" alt=""><li></li></a>
+                                <a href=""><img id="img-icons" src="./pictures/linkedinicon.png" height="30px" alt=""><li></li></a>
                             </ul>
                         </div>
                     </div>
@@ -137,9 +140,11 @@
                                     <h1>SKILLS</h1>
                                 </div>
                             </div>
-                            <div class="sub-header">
+                            <div class="sub-header-description">
                                 <div class="col-skills">
-                                    <h2>Languages and Databases</h2>
+                                    <div class="sub-header">
+                                        <h2>Languages and Databases</h2>
+                                    </div>
                                 <ul>
                                     <li>HTML 5</li>
                                     <li>CSS 3</li>
@@ -151,7 +156,9 @@
                                 </ul>
                                 </div>
                                 <div class="col-skills">
-                                    <h2>Frameworks</h2>
+                                    <div class="sub-header">
+                                        <h2>Frameworks</h2>
+                                    </div>
                                 <ul>
                                     <li>Django</li>
                                     <li>Flask</li>
@@ -167,10 +174,10 @@
                                 </div>
                             </div>
                             <div class="projects-content">
-                                <div class="project-1">
-                                    <img src="./pictures/gas-delivery-vendor.png" alt="">
+                                <div class="project">
+                                    <img id="img-project" src="./pictures/gas-delivery-vendor.png" height="170px" alt="">
                                     <div class="project-description">
-                                        <div class="sub-header-project">
+                                        <div class="sub-header">
                                             <h3>Gas Vendo App</h3>
                                         </div>
                                         <div class="sub-header-description-project">
@@ -180,46 +187,46 @@
                                                     <a href="">More</a>
                                                 </div>
                                                 <div class="view-online">
-                                                    <a href="">View-Online</a>
+                                                    <a href="https://dkorir.github.io/Week-1-Photography-Website/">View-Online</a>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="project-2">
-                                    <img src="./pictures/restaurant.png" alt="">
+                                <div class="project">
+                                    <img id="img-project" src="./pictures/restaurant.png" height="170px" alt="">
                                     <div class="project-description">
-                                        <div class="sub-header-project">
+                                        <div class="sub-header">
                                             <h3>Street Food Restaurant</h3>
                                         </div>
                                         <div class="sub-header-description-project">
-                                            <p>The website shocases the food and services offered by the restaurant users can order online. click more to see tools & technologies used</p>
+                                            <p>The website shocases the food<br> and services offered by the <br>restaurant users can order online.<br> click more to see tools & <br> technologies used</p>
                                             <div class="links">
                                                 <div class="more">
                                                     <a href="">More</a>
                                                 </div>
                                                 <div class="view-online">
-                                                    <a href="">View-Online</a>
+                                                    <a href="https://dkorir.github.io/StreetFood-Restaurant/">View-Online</a>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="project-3">
-                                    <img src="./pictures/photography-web.png" alt="">
+                                <div class="project">
+                                    <img id="img-project" src="./pictures/photography-web.png" height="170px" alt="">
                                     <div class="project-description">
-                                        <div class="sub-header-project">
+                                        <div class="sub-header">
                                             <h3>Photography Website</h3>
                                         </div>
                                         <div class="sub-header-description-project">
-                                            <p>An App where one can order Photography services.
-                                                click more to see tools & technologies used</p>
+                                            <p>An App where one can order<br> Photography services.
+                                                click <br>more to see tools & technologies<br> used</p>
                                             <div class="links">
                                                 <div class="more">
                                                     <a href="">More</a>
                                                 </div>
                                                 <div class="view-online">
-                                                    <a href="">View-Online</a>
+                                                    <a href="https://dkorir.github.io/Week-1-Photography-Website/">View-Online</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -234,7 +241,7 @@
                                 <h1>EDUCATION</h1>
                             </div>
                         </div>
-                        <div class="col-education">
+                        <div class="row-col-sm-6">
                             <div class="education-description">
                                 <div class="moringa-school">
                                     <div class="sub-header-education">
@@ -254,7 +261,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-education">
+                        <div class="row-cols-sm-6">
                             <div class="education-description">
                                 <div class="chuka-university">
                                     <div class="sub-header-education">
@@ -262,7 +269,7 @@
                                     </div>
                                     <div class="chuka-university-description">
                                         <div class="course">
-                                            <h4 class="sub-header-education" >Chuka University: <span>Economics nd Sociology</span></h4>
+                                            <h4 class="sub-header-education" >Chuka University: <span>Economics and Sociology</span></h4>
                                             <h4>Skills</h4>
                                         </div>
                                         <ul>
@@ -289,7 +296,7 @@
                             <div class="col-contact">
                                 <div class="call">
                                     <div class="call-icon">
-                                        <img src="./pictures/callicon.png" alt="">
+                                        <img id="img-contact" src="./pictures/callicon.png" alt="">
                                     </div>
                                     <div class="phone-number">
                                         <p>+254798286377</p>
@@ -297,7 +304,7 @@
                                 </div>
                                 <div class="mail">
                                     <div class="mail-icon">
-                                        <img src="./pictures/mailicon.png" alt="">
+                                        <img id="img-contact" src="./pictures/mailicon.png" alt="">
                                     </div>
                                     <div class="address">
                                         <a href="">dommykiprono76@gmail.com</a>
@@ -307,7 +314,7 @@
                             <div class="col-contact">
                                 <div class="git">
                                     <div class="git-icon">
-                                        <a href=""><img src="./pictures/githubicon.png" alt=""></a>
+                                        <a href="https://github.com/"><img id="img-contact" src="./pictures/githubicon.png" alt=""></a>
                                     </div>
                                     <div class="git-username">
                                         <p>DKorir</p>
@@ -315,15 +322,15 @@
                                 </div>
                                 <div class="git">
                                     <div class="git-icon">
-                                        <a href=""><img src="./pictures/githubicon.png" alt=""></a>
+                                        <a href="https://www.linkedin.com/feed/"><img id="img-contact" src="./pictures/linkedinicon.png" alt=""></a>
                                     </div>
                                     <div class="git-username">
-                                        <p>DKorir</p>
+                                        <p>Korir</p>
                                     </div>
                                 </div>
                                 <div class="twitter">
                                     <div class="twitter-icon">
-                                        <a href=""><img src="./pictures/twittericon.png" alt=""></a>
+                                        <a href=""><img id="img-contact" src="./pictures/twittericon.png" alt=""></a>
                                     </div>
                                     <div class="twitter-username">
                                         <p>Dkiprono</p>
