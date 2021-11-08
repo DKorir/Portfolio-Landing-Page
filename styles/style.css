@@ -1,3 +1,9 @@
+.container{
+    display: flex;
+}
+.row-2{
+    background-color: #cccccc;
+}
 #profile-icon{
     border-radius: 50%;
     width: 100px;
@@ -5,6 +11,10 @@
 #about-icon{
     border-radius: 50%;
     width: 50px;
+}
+.about-page{
+    display: flex;
+    justify-content: space-evenly;
 }
 #work-icon{
     width: 50px;
@@ -34,10 +44,16 @@
 }
 .about-icon-description{
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+}
+.about-icons{
+    display: inline;
 }
 .work-experience-icon-description{
     display: flex;
+}
+.experience-description{
+    margin-left: 70px;
 }
 .about-icon-description{
     display: flex;
@@ -56,15 +72,25 @@
     display: flex;
 }
 .about-icon-description{
-    display: flex;   
 }
 .description{
     border-radius: 15px;
     background-color: #CB2D6F;
-    width: 70px;
+    width: 55px;
     padding: 10px;
     height: 10px;
     text-align: center;
+    list-style-type: none;
+    text-decoration: none;
+    margin-left: 10px;
+    font-size: x-small;
+    text-transform: uppercase;
+}
+.description a:hover{
+    background-color: burlywood;
+}
+.description a: :active{
+    background-color:red;
 }
 #img-icons{
     width: 30px;
@@ -111,19 +137,17 @@
     color: white;
 }
 .bg-color-black{
-    background-color: rgb(70, 66, 66);
+    background-color: black;
 }
 body{
     background-color: white;
+    /* padding: 5px; */
 }
 .landing-page-header{
     color: black;
 }
 .landing-page{
     padding: 20px;
-}
-.container{
-    background-color: #cccccc;
 }
 .button-send-message{
     background-color: #cccccc;
@@ -138,6 +162,7 @@ body{
     margin: 20px;
     width: 180px;
     flex-direction: column;
+
 }
 .year-service{
     background-color: #CB2D6F;
@@ -157,4 +182,36 @@ span{
 }
 .colum{
     flex-direction: row;
+}
+.nav-bar-icons{
+    /* background-color: cyan; */
+    padding: 20px 20px 20px 20px;
+}
+.contact-col{
+    display: flex;
+    justify-content: space-evenly;
+}
+.education{
+    display: flex;
+    justify-content: space-around;
+}
+.projects-content{
+    display: flex;
+    justify-content: space-evenly;
+}
+.col-skills{
+    display: flex;
+    justify-content: space-evenly;
+}
+.languages ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+.frameworks ul{
+    display: flex;
+    justify-content: space-evenly; 
+}
+.landing-page{
+    display: flex;
+    justify-content: space-evenly;  
 }
