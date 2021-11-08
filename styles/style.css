@@ -141,6 +141,7 @@
 }
 body{
     background-color: white;
+    font-family: monospace;
     /* padding: 5px; */
 }
 .landing-page-header{
