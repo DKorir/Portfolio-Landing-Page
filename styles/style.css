@@ -15,6 +15,7 @@
 .about-page{
     display: flex;
     justify-content: space-evenly;
+    padding-top: 10px;
 }
 #work-icon{
     width: 50px;
@@ -124,15 +125,15 @@
     background-color: #CB2D6F;
     border-radius: 4px;
     text-align: center;
-    width: 60%;
+    width: 70px;
     outline: none;
     transition: ease-in-out 0.8s;
-    height: 20px;
+    height: 25px;
     padding: 4px;
 }
 .view-online:hover{
     cursor: pointer;
-    box-shadow:inset 105px 0 0 0 #0e0c0c;
+    box-shadow:inset 70px 0 0 0 #0e0c0c;
 
 }
 .links{
@@ -143,6 +144,7 @@
 }
 .header{
     color: #CB2D6F;
+    padding: 4px 0px 4px 4px;
 }
 .sub-header{
     color: #CB2D6F
@@ -161,6 +163,7 @@ body{
     background-color: white;
     font-family: monospace;
     /* padding: 5px; */
+    margin-right: 50px;
 }
 .landing-page-header{
     color: black;
@@ -234,3 +237,18 @@ span{
     display: flex;
     justify-content: space-evenly;  
 }
+.col-1{
+    border-style: dotted;
+    border-color: #CB2D6F;
+    border-top: none;
+    border-bottom: none;
+    border-left: none;
+    padding-right: 30px;
+}
+
+@media only screen and (min-width=400px) {
+    body{
+        background-color: yellow;
+    }
+}
+
