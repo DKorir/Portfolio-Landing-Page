@@ -160,12 +160,28 @@ body{
 .landing-page{
     padding: 20px;
 }
-.button-send-message{
+/* .button-send-message{ */
+    /* background-color: #cccccc; */
+    /* color: black; */
+    /* width: 125px;border-radius: 45px; */
+    /* text-align: center; */
+    /* height: 25px; */
+/* } */
+
+button{
     background-color: #cccccc;
     color: black;
-    width: 125px;border-radius: 45px;
-    text-align: center;
+    border-radius: 4px;
+    width: 200px;
+    outline: none;
+    transition: ease-in-out 0.8s;
     height: 25px;
+    padding: 4px;
+    align-items: center;
+}
+button:hover{
+    cursor: pointer;
+    box-shadow:inset 200px 0 0 0 #d8b208;
 }
 .project{
     background-color: #FBEFEF;
@@ -178,9 +194,11 @@ body{
 .year-service{
     background-color: #CB2D6F;
     color:#cccccc;
-    width: 120px;
-    border-radius: 20px;
+    width: 40%;
+    border-radius: 4px;
     text-align: center;
+    /* align-items: center; */
+    margin: auto;
 }
 .sub-header{
     text-align: center;
