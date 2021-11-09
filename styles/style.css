@@ -72,8 +72,6 @@
 .projects-icon-description{
     display: flex;
 }
-.about-icon-description{
-}
 .description{
     border-radius: 15px;
     background-color: #CB2D6F;
@@ -86,12 +84,6 @@
     margin-left: 10px;
     font-size: x-small;
     text-transform: uppercase;
-}
-.description a:hover{
-    background-color: burlywood;
-}
-.description a: :active{
-    background-color:red;
 }
 #img-icons{
     width: 30px;
@@ -148,9 +140,6 @@
 }
 .sub-header{
     color: #CB2D6F
-}
-.button-send-message{
-    background-color: ;
 }
 .landing-page{
     background-color: #CB2D6F;
@@ -246,9 +235,5 @@ span{
     padding-right: 30px;
 }
 
-@media only screen and (min-width=400px) {
-    body{
-        background-color: yellow;
-    }
-}
+
 
