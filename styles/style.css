@@ -109,19 +109,37 @@
 }
 .more{
     background-color: #CB2D6F;
-    border-radius: 15px;
+    border-radius: 4px;
     text-align: center;
-    width: 60px;
+    width: 30%;
+    outline: none;
+    transition: ease-in-out 0.8s;
+    padding: 4px;
+}
+.more:hover{
+    cursor: pointer;
+    box-shadow:inset 80px 0 0 0 #0e0c0c;
 }
 .view-online{
     background-color: #CB2D6F;
-    border-radius: 15px;
+    border-radius: 4px;
     text-align: center;
-    width: 120px;
+    width: 60%;
+    outline: none;
+    transition: ease-in-out 0.8s;
+    height: 20px;
+    padding: 4px;
+}
+.view-online:hover{
+    cursor: pointer;
+    box-shadow:inset 105px 0 0 0 #0e0c0c;
+
 }
 .links{
-    margin: 30px;
-    justify-content: space-around;
+    margin: 0;
+    display: flex;
+    justify-content: space-evenly;
+    
 }
 .header{
     color: #CB2D6F;
